@@ -1,0 +1,13 @@
+.app {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background: url("../assets/bg.png") no-repeat center center fixed;
+  background-size: cover;
+}

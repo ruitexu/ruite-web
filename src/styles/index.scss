@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&display=swap');
+
+$font-family: 'Noto Sans', sans-serif;
+
+$font-size-1: 0.875rem;
+$font-size-2: 1.125rem;
+$font-size-3: 1.5rem;
+$font-size-4: 2rem;
+
+$font-weight-1: 400;
+$font-weight-2: 500;
+$font-weight-3: 600;
+
+$spacing-01: 0.25rem;
+$spacing-02: 0.5rem;
+$spacing-03: 0.75rem;
+$spacing-04: 1rem;
+
+$spacing-05: 1.25rem;
+$spacing-06: 1.5rem;
+$spacing-07: 1.75rem;
+$spacing-08: 2rem;
+
+$spacing-09: 2.25rem;
+$spacing-10: 2.5rem;
+$spacing-11: 2.75rem;
+$spacing-12: 3rem;
+
+$spacing-13: 3.25rem;
+$spacing-14: 3.5rem;
+$spacing-15: 3.75rem;
+$spacing-16: 4rem;
+
+$black: #252525;
+$white: #ffffff;
+$yellow: #b5a08b;
+$blue: #4c5f65;
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: $font-family;
+}
+
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  color: $black;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: $font-size-4;
+  font-weight: $font-weight-3;
+}

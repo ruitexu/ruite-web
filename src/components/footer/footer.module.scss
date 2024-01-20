@@ -1,0 +1,38 @@
+@import "../../styles/index.scss";
+
+.footer {
+  margin: 0;
+  padding: 0;
+}
+
+.ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: $white;
+  gap: $spacing-08;
+}
+
+.li {
+  margin: 0;
+  padding: 0;
+
+  &:first-child {
+    list-style: none;
+  }
+}
+
+.text {
+  font-family: $font-family;
+  font-size: $font-size-1;
+  font-weight: $font-weight-1;
+  color: $white;
+}
+
+.button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}

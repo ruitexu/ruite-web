@@ -14,9 +14,9 @@ const Profile = () => {
   const { t } = useTranslation();
   return (
     <main className={styles.profile}>
-      <img className={styles.img} src={avatar} alt="Kevin" />
+      <img className={styles.img} src={avatar} alt="Ruite" />
       <hr className={styles.hr} />
-      <h1 className={styles.h1}>Kevin Zhang</h1>
+      <h1 className={styles.h1}>Ruite Xu</h1>
       <p className={styles.title}>{t("title")}</p>
       <p className={styles.location}>{t("location")}</p>
       <hr className={styles.hr} />
@@ -26,7 +26,7 @@ const Profile = () => {
             className={styles.a}
             target="_blank"
             rel="noreferrer"
-            href="https://www.linkedin.com/in/kzz/"
+            href="https://www.linkedin.com/in/ruite-xu/"
             aria-label="LinkedIn"
           >
             <FontAwesomeIcon className={styles.icon} icon={faLinkedinIn} />
@@ -37,7 +37,7 @@ const Profile = () => {
             className={styles.a}
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/kzz"
+            href="https://github.com/ruitexu"
             aria-label="GitHub"
           >
             <FontAwesomeIcon className={styles.icon} icon={faGithub} />
@@ -48,7 +48,7 @@ const Profile = () => {
             className={styles.a}
             target="_blank"
             rel="noreferrer"
-            href="https://unsplash.com/@kzhang"
+            href="https://unsplash.com/@ratex"
             aria-label="Unsplash"
           >
             <FontAwesomeIcon className={styles.icon} icon={faUnsplash} />
@@ -57,7 +57,7 @@ const Profile = () => {
         <li>
           <a
             className={styles.a}
-            href="mailto:hi@kevinzhang.ca"
+            href="mailto:hi@ruitexu.ca"
             aria-label={t("email")}
           >
             <FontAwesomeIcon className={styles.icon} icon={faPaperPlane} />

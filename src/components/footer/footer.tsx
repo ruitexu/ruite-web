@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <ul className={styles.ul}>
         <li className={styles.li}>
-          <span className={styles.text}>&copy; Kevin Zhang</span>
+          <span className={styles.text}>&copy; Ruite Xu</span>
         </li>
         <li className={styles.li}>
           <button

@@ -57,7 +57,7 @@ const Profile = () => {
         <li>
           <a
             className={styles.a}
-            href="mailto:hi@ruitexu.ca"
+            href="mailto:hi@ruitexu.com"
             aria-label={t("email")}
           >
             <FontAwesomeIcon className={styles.icon} icon={faPaperPlane} />
